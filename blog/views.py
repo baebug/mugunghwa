@@ -19,3 +19,9 @@ def post_list(request):
     context = {
     }
     return HttpResponse(template.render(context, request))
+
+def uikit(request):
+    template = loader.get_template('blog/uikit.html')
+    context = {
+    }
+    return HttpResponse(template.render(context, request))
