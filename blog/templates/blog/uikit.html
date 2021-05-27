@@ -1,12 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>unikit</title>
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.22/dist/css/uikit.min.css" />
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.22/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.22/dist/js/uikit-icons.min.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
 </head>
 <body>
-    UIKit !!
+    
+    <div class="uk-alert-primary" uk-alert>
+        <a class="uk-alert-close" uk-close></a>
+        <p>uikit test 사라지는 </p>
+    </div>
+    <div>
+        <ul uk-accordion>
+            <li class="uk-open">
+                <a class="uk-accordion-title" href="#">나를봐 1</a>
+                <div class="uk-accordion-content">
+                    <p>아코디언이라고함 1</p>
+                </div>
+            </li>
+            <li>
+                <a class="uk-accordion-title" href="#">나를봐 2</a>
+                <div class="uk-accordion-content">
+                    <p>아코디언이라고함 1</p>
+                </div>
+            </li>
+            <li>
+                <a class="uk-accordion-title" href="#">나를봐 3</a>
+                <div class="uk-accordion-content">
+                    <p>아코디언이라고함 1</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="uk-background-cover uk-height-medium uk-panel uk-flex-center uk-flex-wrap" style="background-image: url(http://www.wallpp.co.kr/wp-content/uploads/2019/02/10.png);">
+       <div class="uk-animation-toggle uk-padding-large" tabindex="0">
+          <div class="uk-card uk-card-default uk-card-body uk-animation-shake">
+              <p class="uk-text-center">추워요 덜덜</p>
+          </div>
+      </div> 
+    </div>
+    <div class="uk-inline">
+        <p>어드벤처타임</p>
+        <video src="https://youtu.be/lAZF-GrJDvM" loop muted playsinline uk-video="autoplay: inview"></video>
+    </div>
+</div>
 </body>
 </html>
