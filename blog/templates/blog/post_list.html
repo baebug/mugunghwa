@@ -4,72 +4,85 @@
 <html>
 
 <head>
-	<meta charset="utf-8">
-	<title>5월 24일부터 작업하는 페이</title>
-	<link rel="stylesheet" href="{% static 'css/blog.css' %}" />
-    <!-- Bootstrap CSS -->
-    <link href="../../static/bootstrap/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <meta charset="utf-8">
+  <title>5월 24일부터 작업하는 페이</title>
+  <link rel="stylesheet" href="{% static 'css/blog.css' %}" />
+  <!-- Bootstrap CSS -->
+  <link href="../../static/bootstrap/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 </head>
 
 <body>
-<div id="wrapper ">
-    <div class="d-inline position-relative">
-        <div class="position-absolute top-0 start-0">
-            <h1>ye&amp;bea work</h1>
+  <div id="wrapper ">
+    <!-- <div class="d-inline position-relative">
+      <div class="position-absolute top-0 start-0"> -->
+    <div class="container logo-con">
+      <div class="row align-items-center">
+        <div class="col col-lg-3">
+          <h1>ye&amp;bea work</h1>
         </div>
-    </div>
-    <div class="d-inline position-absolute top-0 end-0 px-4 menubtn">
-        <nav class="menu d-inline">
-             <div class="btn-group">
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="defaultDropdown" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
-                Default dropdown
-              </button>
-              <ul class="dropdown-menu" aria-labelledby="defaultDropdown">
-                <li><a class="dropdown-item" href="/UIKit">SHOPPING</a></li>
-                <li><a class="dropdown-item" href="#">Menu item</a></li>
-                <li><a class="dropdown-item" href="#">Menu item</a></li>
-              </ul>
-            </div>
+        <!-- <div class="d-inline position-absolute top-0 end-0 px-4 menubtn">
+        <nav class="menu d-inline"> -->
+        <div class="col col-lg-1"></div>
+        <nav class="col col-lg-8">
+          <div class="btn-group">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="defaultDropdown"
+              data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+              Default dropdown
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="defaultDropdown">
+              <li><a class="dropdown-item" href="/UIKit">SHOPPING</a></li>
+              <li><a class="dropdown-item" href="#">Menu item</a></li>
+              <li><a class="dropdown-item" href="#">Menu item</a></li>
+            </ul>
+          </div>
 
-            <div class="btn-group">
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuClickableOutside" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
-                Clickable outside
-              </button>
-              <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickableOutside">
-                <li><a class="dropdown-item" href="#">Menu item</a></li>
-                <li><a class="dropdown-item" href="#">Menu item</a></li>
-                <li><a class="dropdown-item" href="#">Menu item</a></li>
-              </ul>
-            </div>
+          <div class="btn-group">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuClickableOutside"
+              data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
+              Clickable outside
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickableOutside">
+              <li><a class="dropdown-item" href="#">Menu item</a></li>
+              <li><a class="dropdown-item" href="#">Menu item</a></li>
+              <li><a class="dropdown-item" href="#">Menu item</a></li>
+            </ul>
+          </div>
 
-            <div class="btn-group">
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuClickableInside" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
-                Clickable inside
-              </button>
-              <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickableInside">
-                <li><a class="dropdown-item" href="#">Menu item</a></li>
-                <li><a class="dropdown-item" href="#">Menu item</a></li>
-                <li><a class="dropdown-item" href="#">Menu item</a></li>
-              </ul>
-            </div>
+          <div class="btn-group">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuClickableInside"
+              data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+              Clickable inside
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickableInside">
+              <li><a class="dropdown-item" href="#">Menu item</a></li>
+              <li><a class="dropdown-item" href="#">Menu item</a></li>
+              <li><a class="dropdown-item" href="#">Menu item</a></li>
+            </ul>
+          </div>
 
-            <div class="btn-group">
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuClickable" data-bs-toggle="dropdown" data-bs-auto-close="false" aria-expanded="false">
-                Manual close
-              </button>
-              <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickable">
-                <li><a class="dropdown-item" href="#">Menu item</a></li>
-                <li><a class="dropdown-item" href="#">Menu item</a></li>
-                <li><a class="dropdown-item" href="#">Menu item</a></li>
-              </ul>
-            </div>
+          <div class="btn-group">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuClickable"
+              data-bs-toggle="dropdown" data-bs-auto-close="false" aria-expanded="false">
+              Manual close
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickable">
+              <li><a class="dropdown-item" href="#">Menu item</a></li>
+              <li><a class="dropdown-item" href="#">Menu item</a></li>
+              <li><a class="dropdown-item" href="#">Menu item</a></li>
+            </ul>
+          </div>
         </nav>
-    </div>    
+      </div>
+    </div>
     {% include "blog/con1.html" %}
     {% include "blog/concard1.html" %}
     {% include "blog/concard2.html" %}
-<footer>ye&amp;bea bugs for ninano</footer>
-</div>
-<script src="../../static/bootstrap/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <footer>ye&amp;bea bugs for ninano</footer>
+  </div>
+  <script src="../../static/bootstrap/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
